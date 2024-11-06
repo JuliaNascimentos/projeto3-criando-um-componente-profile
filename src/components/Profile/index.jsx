@@ -4,7 +4,7 @@ export default function Profile(props){
     return(
         <div className={styles.container}>
             <img src={props.img} />
-            <h1>{props.name}</h1>
+            <h3>{props.name}</h3>
             <hr />
             <p>{props.bio}</p>
             <hr />
