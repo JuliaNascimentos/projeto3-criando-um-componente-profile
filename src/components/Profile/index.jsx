@@ -14,7 +14,7 @@ export default function Profile(props){
             <hr />
             <button><a href={props.githubUrl}>Github</a></button>
             <button><a href={props.linkedinUrl}>Linkedin</a></button>
-            <button><a href={props.twitterUrl}>Twitter</a></button>
+            <button><a href={props.instaUrl}>Instagram</a></button>
         </div>
     )
 }
